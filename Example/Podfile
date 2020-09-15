@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ConfigMoudle_Example' do
+  pod 'ConfigMoudle', :path => '../'
+
+  target 'ConfigMoudle_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
