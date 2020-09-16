@@ -1,11 +1,8 @@
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+source 'https://github.com/Wwxd-Sun/ModuleSpece.git'   # 私有库
 use_frameworks!
 
 target 'ConfigMoudle_Example' do
   pod 'ConfigMoudle', :path => '../'
 
-  target 'ConfigMoudle_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
